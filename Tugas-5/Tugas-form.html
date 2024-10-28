@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="login.php" method="post">
+      <p>
+        <label>Nama:</label>
+        <input type="text" name="username" placeholder="Tuliskan Nama Anda" />
+      </p>
+      <p>
+        <label>Alamat:</label>
+        <textarea
+          name="Alamat"
+          placeholder="Tuliskan Alamat Anda"
+          rows="10"
+          cols="20"
+        ></textarea>
+      </p>
+      <p>
+        <label>Alat Kelamin:</label>
+        <br />
+        <label
+          ><input type="radio" name="jenis kelamin" value="laki-laki" />
+          laki-laki</label
+        >
+        <label
+          ><input type="radio" name="jenis kelamin" value="perempuan" />
+          perempuan
+        </label>
+      </p>
+      <p>
+        <label>Hobi:</label>
+      </p>
+      <br />
+      <label
+        ><input type="checkbox" value="memasak" id="memasak" />Memasak</label
+      >
+      <br />
+      <label
+        ><input
+          type="checkbox"
+          value="bersepeda"
+          id="bersepeda"
+        />Bersepeda</label
+      >
+      <br />
+      <label><input type="checkbox" value="lari" id="lari" />Lari</label>
+      <br />
+      <label
+        ><input type="checkbox" value="panahan" id="panahan" />Panahan</label
+      >
+      <br />
+      <label
+        ><input type="checkbox" value="berenang" id="berenang" />Berenang</label
+      >
+      <br>
+      <input type="submit" name="submit" value="Kirim" />
+    </form>
+  </body>
+</html>
