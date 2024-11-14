@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox CSS</title>
+    <style>
+        /* Style umum untuk container */
+        .container {
+            display: flex;
+            border: 2px solid #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            height: 200px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Style untuk item di dalam flexbox */
+        .item {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin: 5px;
+            flex: 1;
+        }
+
+        /* Style untuk judul tiap contoh */
+        h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Latihan Flexbox CSS</h1>
+
+    <h2>Contoh 1: flex-direction: row; justify-content: center; align-items: center;</h2>
+    <div class="container" style="flex-direction: row; justify-content: center; align-items: center;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Contoh 2: flex-direction: row; justify-content: space-between; align-items: flex-start;</h2>
+    <div class="container" style="flex-direction: row; justify-content: space-between; align-items: flex-start;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Contoh 3: flex-direction: row; justify-content: space-around; align-items: flex-end;</h2>
+    <div class="container" style="flex-direction: row; justify-content: space-around; align-items: flex-end;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Contoh 4: flex-direction: column; justify-content: space-evenly; align-items: center;</h2>
+    <div class="container" style="flex-direction: column; justify-content: space-evenly; align-items: center;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Contoh 5: flex-direction: column; justify-content: center; align-items: flex-start;</h2>
+    <div class="container" style="flex-direction: column; justify-content: center; align-items: flex-start;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Contoh 6: flex-direction: column; justify-content: flex-end; align-items: flex-end;</h2>
+    <div class="container" style="flex-direction: column; justify-content: flex-end; align-items: flex-end;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+</body>
+
+</html>

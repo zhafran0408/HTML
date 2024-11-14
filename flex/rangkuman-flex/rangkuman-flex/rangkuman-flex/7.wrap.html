@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox Wrap</title>
+    <style>
+        /* Gaya umum untuk kotak-kotak */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        /* Container umum */
+        .container {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        /* Contoh tanpa wrap */
+        .no-wrap {
+            flex-wrap: nowrap;
+            border: 2px solid #e74c3c;
+        }
+
+        /* Contoh dengan wrap */
+        .wrap {
+            flex-wrap: wrap;
+            border: 2px solid #2ecc71;
+        }
+
+        /* Contoh dengan wrap reverse */
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+            border: 2px solid #f1c40f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Latihan Flexbox - Flex Wrap</h1>
+
+    <h2>Flex Wrap: nowrap (Tidak Membungkus)</h2>
+    <div class="container no-wrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Flex Wrap: wrap (Membungkus)</h2>
+    <div class="container wrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>Flex Wrap: wrap-reverse (Membungkus Terbalik)</h2>
+    <div class="container wrap-reverse">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox</title>
+    <style>
+        /* Style dasar untuk container flex */
+        .container {
+            display: flex;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            border: 2px solid #333;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        /* Style dasar untuk tiap item */
+        .item {
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin: 5px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        /* Style untuk judul */
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Variasi Flexbox */
+        .flex-row {
+            flex-direction: row;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        .justify-start {
+            justify-content: flex-start;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .justify-end {
+            justify-content: flex-end;
+        }
+
+        .justify-space-between {
+            justify-content: space-between;
+        }
+
+        .align-start {
+            align-items: flex-start;
+        }
+
+        .align-center {
+            align-items: center;
+        }
+
+        .align-end {
+            align-items: flex-end;
+        }
+
+        .order-example .item:nth-child(1) {
+            order: 3;
+        }
+
+        .order-example .item:nth-child(2) {
+            order: 1;
+        }
+
+        .order-example .item:nth-child(3) {
+            order: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="title">1. Flex Direction: Row (Default)</div>
+    <div class="container flex-row">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">2. Flex Direction: Column</div>
+    <div class="container flex-column">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">3. Justify Content: Center</div>
+    <div class="container flex-row justify-center">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">4. Justify Content: Space Between</div>
+    <div class="container flex-row justify-space-between">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">5. Align Items: Flex-Start</div>
+    <div class="container flex-row align-start" style="height: 150px;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">6. Align Items: Center</div>
+    <div class="container flex-row align-center" style="height: 150px;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">7. Align Items: Flex-End</div>
+    <div class="container flex-row align-end" style="height: 150px;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">8. Flex Direction: Row dengan Order</div>
+    <div class="container flex-row order-row">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <div class="title">9. Flex Direction: Column dengan Order</div>
+    <div class="container flex-column order-column" style="height: 300px;">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+</body>
+
+</html>

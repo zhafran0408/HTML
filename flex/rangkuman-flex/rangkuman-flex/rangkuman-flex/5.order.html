@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox dengan Order</title>
+    <style>
+        /* Container Flex */
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid #333;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        /* Gaya umum untuk kotak */
+        .box {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        /* Warna untuk setiap kotak */
+        .box1 { background-color: #e74c3c; }
+        .box2 { background-color: #3498db; }
+        .box3 { background-color: #2ecc71; }
+        .box4 { background-color: #f1c40f; }
+
+        /* Mengatur urutan menggunakan order */
+        .order-1 { order: 1; }
+        .order-2 { order: 2; }
+        .order-3 { order: 3; }
+        .order-4 { order: 4; }
+
+        /* Contoh urutan yang berbeda */
+        .flex-reverse .box1 { order: 4; }
+        .flex-reverse .box2 { order: 3; }
+        .flex-reverse .box3 { order: 2; }
+        .flex-reverse .box4 { order: 1; }
+    </style>
+</head>
+<body>
+
+    <h2>Latihan Flexbox dengan Order</h2>
+
+    <div class="flex-container">
+        <div class="box box1 order-1">1</div>
+        <div class="box box2 order-3">2</div>
+        <div class="box box3 order-2">3</div>
+        <div class="box box4 order-4">4</div>
+    </div>
+    <p>Container ini menggunakan urutan default (1, 3, 2, 4).</p>
+
+    <div class="flex-container flex-reverse">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+    </div>
+    <p>Container ini menggunakan urutan terbalik (4, 3, 2, 1) dengan `order` CSS.</p>
+
+</body>
+</html>

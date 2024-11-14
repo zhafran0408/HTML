@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox: Justify Content</title>
+    <style>
+        /* Style dasar untuk container flex */
+        .flex-container {
+            display: flex;
+            border: 2px solid #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 80%;
+            height: 100px;
+            background-color: #f1f1f1;
+        }
+
+        /* Style dasar untuk setiap item dalam container */
+        .flex-item {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* Title untuk setiap contoh */
+        .example-title {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Latihan Flexbox: Justify Content</h1>
+
+    <p class="example-title">1. Justify Content: <code>flex-start</code> (default)</p>
+    <div class="flex-container" style="justify-content: flex-start;">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <p class="example-title">2. Justify Content: <code>center</code></p>
+    <div class="flex-container" style="justify-content: center;">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <p class="example-title">3. Justify Content: <code>flex-end</code></p>
+    <div class="flex-container" style="justify-content: flex-end;">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <p class="example-title">4. Justify Content: <code>space-between</code></p>
+    <div class="flex-container" style="justify-content: space-between;">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <p class="example-title">5. Justify Content: <code>space-around</code></p>
+    <div class="flex-container" style="justify-content: space-around;">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+    <p class="example-title">6. Justify Content: <code>space-evenly</code></p>
+    <div class="flex-container" style="justify-content: space-evenly;">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div>
+
+</body>
+
+</html>

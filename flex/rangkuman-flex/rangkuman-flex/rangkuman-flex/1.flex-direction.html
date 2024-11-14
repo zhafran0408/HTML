@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox - Flex Direction</title>
+    <style>
+        /* Gaya untuk container utama */
+        .container {
+            display: flex;
+            gap: 10px;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #333;
+        }
+
+        /* Gaya untuk item di dalam container */
+        .item {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            flex: 1;
+        }
+
+        /* Flex direction untuk row */
+        .row {
+            flex-direction: row;
+        }
+
+        /* Flex direction untuk row-reverse */
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        /* Flex direction untuk column */
+        .column {
+            flex-direction: column;
+        }
+
+        /* Flex direction untuk column-reverse */
+        .column-reverse {
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Latihan Flexbox - Flex Direction</h1>
+
+    <!-- Contoh dengan flex-direction: row -->
+    <h2>Flex Direction: Row</h2>
+    <div class="container row">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <!-- Contoh dengan flex-direction: row-reverse -->
+    <h2>Flex Direction: Row-Reverse</h2>
+    <div class="container row-reverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <!-- Contoh dengan flex-direction: column -->
+    <h2>Flex Direction: Column</h2>
+    <div class="container column">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <!-- Contoh dengan flex-direction: column-reverse -->
+    <h2>Flex Direction: Column-Reverse</h2>
+    <div class="container column-reverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+</body>
+
+</html>
