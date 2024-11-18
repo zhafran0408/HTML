@@ -6,6 +6,7 @@ h1 {
     color: #0757a8;
     display: flex;
     justify-content:left;
+    text-decoration:underline;
   }
   .merah{
       color:#ff0000 ;
