@@ -1,0 +1,52 @@
+h1 {
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    color: #0757a8;
+    display: flex;
+    justify-content:left;
+  }
+  .merah{
+      color:#ff0000 ;
+      text-transform:uppercase;
+  }
+  .teks{
+    list-style:none;
+  }
+  .li{
+      text-decoration:overline;
+  }
+  .t{
+      text-decoration: line-through;   
+  }
+  .align{
+    list-style:none;
+  }
+  .center{
+    text-align:center;
+  }
+  .right{
+    text-align: right;
+  }
+  .left{
+    text-align: left;
+  }
+  .transformasi{
+    list-style: none;
+  }
+  .Kapital{
+    text-transform:uppercase;
+  }
+  .kecil{
+    text-transform: lowercase;
+  }
+  .random{
+    text-transform: capitalize;
+  }
+  .spasi{
+    list-style: none;
+  }
+  .lebar{
+    letter-spacing:5px ;
+  }
