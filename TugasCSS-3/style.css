@@ -1,0 +1,92 @@
+* {
+  margin: 1px;
+  padding: 20px;
+  font-family: "Cormorant", serif;
+}
+
+.judul {
+  background-color: rgb(224, 116, 0);
+  display: flex;
+  justify-content: center;
+}
+.p {
+  background-color: rgb(255, 128, 0);
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-style: italic;
+}
+.font {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgb(169, 98, 11);
+  list-style: none;
+}
+.light {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.medium {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.bold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.judul2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(169, 98, 11);
+  font-weight: 900;
+  font-style: normal;
+}
+.test {
+  background-color: rgb(169, 98, 11);
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-style: normal;
+}
+.huruf {
+  background-color: rgb(169, 98, 11);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+  font-style: normal;
+}
+.teks {
+  background-color: rgb(224, 116, 0);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.akhir {
+  background-color: rgb(169, 98, 11);
+  display: flex;
+  justify-content: center;
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
