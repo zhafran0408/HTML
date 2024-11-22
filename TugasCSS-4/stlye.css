@@ -1,0 +1,53 @@
+*{
+    margin:1px;
+    padding: 20px;
+}
+.solid{
+    border: 2px solid black;
+    margin-bottom: 2%;
+}
+.radius{
+    border: 2px solid rgb(0, 255, 183);
+    border-radius: 16px;
+    margin-bottom: 2%;
+}
+.dashed{
+    border: 2px solid red;
+    border-style: dashed;
+    margin-bottom: 2%;
+}
+.dotted{
+    border: 2px solid rgb(115, 110, 110);
+    border-style: dotted;
+    margin-bottom: 2%;
+}
+.double{
+    border: 2px solid rgb(255, 98, 0);
+    border-style:double;
+    margin-bottom: 2%;
+}
+.groove{
+    border: 2px solid rgb(132, 0, 255);
+    margin-bottom: 2%;
+}
+.inset{
+    border: 2px solid red;
+    border-top-color: blue;
+    border-left-color: blue;
+    border-right-color: red;
+    margin-bottom: 2%;
+}
+.outset{
+    border: 2px solid blue;
+    border-top-color:red;
+    border-left-color: red;
+    border-right-color: blue;
+    margin-bottom: 2%;
+}
+.gradasi{
+  border-image: linear-gradient(to right, #3dd3d8 0%, #0926e4 100%) 1;
+  border-radius: 5px; 
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px;
+}
