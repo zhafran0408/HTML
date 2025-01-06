@@ -3,9 +3,7 @@
   padding: 0;
 }
 .container {
-  background-color: rgb(255, 94, 0);
-  margin-left: 5%;
-  margin-right: 5%;
+  background-color: rgb(255, 103, 15);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -25,32 +23,61 @@
   text-align: center;
 }
 .container2 {
-  background-color: burlywood;
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  justify-content:space-around;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .layar {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
+  padding-top: 20px;
   align-items: center;
-  text-align: left;
-  color: rgb(255, 87, 15);
-}
-.collect{
+  text-align: justify;
   font-weight: 600;
+  font-size: x-large;
+  color: rgb(253, 79, 4);
+}
+.collect {
+  font-weight: 900px;
+  font-size: x-large;
 }
 #hero {
   background: url("./bg-hero.jpg");
   background-position: center;
   background-size: cover;
 }
-button{
-  color: rgb(255, 255, 255);
+.tekshero {
+  width: 50%;
+}
+.gambar {
+  background-color: aqua;
+  width: 30%;
+}
+.gambar img {
+  width: 100%;
+}
+button {
+  color: rgb(235, 235, 235);
   background-color: rgb(245, 86, 0);
   border: none;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 11px;
   padding-right: 11px;
   font-size: xx-small;
+}
+.kata {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+.google {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-self:center;
+  height:40px;
+  width: 500px;
 }
