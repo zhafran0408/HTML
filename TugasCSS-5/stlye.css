@@ -43,15 +43,15 @@
   font-size: x-large;
 }
 #hero {
-  background: url("./bg-hero.jpg");
+  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./bg-hero.jpg");
   background-position: center;
   background-size: cover;
+
 }
 .tekshero {
   width: 50%;
 }
 .gambar {
-  background-color: aqua;
   width: 30%;
 }
 .gambar img {
