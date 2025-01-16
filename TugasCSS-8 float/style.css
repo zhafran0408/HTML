@@ -1,0 +1,23 @@
+.test1 {
+ background-color: #84aafa;
+ display: flex;
+ justify-content: center;
+ position: static;
+}
+.test2{
+    background-color: rgb(95, 159, 155);
+    float:left;
+    position: relative;
+}
+.test3{
+    background-color: rgb(132, 132, 196);
+    position:static;
+}
+.test4{
+    background-color: rgb(133, 10, 247);
+    float: right;
+    position: sticky;
+}
+.height{
+    width: 1000px;
+}
