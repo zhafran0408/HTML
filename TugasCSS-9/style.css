@@ -1,0 +1,27 @@
+#body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.container{
+    position:relative;
+    left: 10em;
+    top: 10em;
+    width: 300px;
+}
+.overflow{
+    background-color: rgb(56, 56, 56);
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tab{
+    display: inline-block;
+    color: rgb(232, 229, 227);
+    padding:10px;
+    border-right: 3px;
+}
+.teks{
+    background-color: rgb(154, 154, 152);
+    color: rgb(250, 249, 244);
+}
