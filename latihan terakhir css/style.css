@@ -1,0 +1,72 @@
+ul#outside {
+  list-style-position:outside ;
+}
+ul#outside li{
+    background-color: aqua;
+}
+ul#inside{
+    list-style-position: inside;
+}
+ul#inside li{
+    background-color: rgb(2, 70, 48);
+}
+ul#mark_image{
+    list-style-image: url(   https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico);
+}
+ul#shorthand li{
+    background-color: rgb(2, 103, 245);
+    list-style:inside lower-alpha url(   https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico);;
+}
+ul#set-style-ul{
+    background-color: aquamarine;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ol#set-style-ol{
+    background-color: rgb(169, 91, 243);
+    list-style-type: upper-alpha;
+}
+.nav-horizontal{
+    list-style-type: none;
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-horizontal li a{
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-horizontal li{
+    float: left;
+}
+.nav-horizontal li a:hover{
+    background-color: black;
+}
+.nav-vertical{
+    background-color: cadetblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:25%;
+    height: 100%;
+    overflow: hidden;
+}
+.nav-vertical li a{
+    display: block;
+    color: rgb(245, 232, 232);
+    text-decoration: none;
+    padding: 8px 0px 8px 16px;
+}
+.nav-vertical a.active{
+    background-color: blue;
+    color: antiquewhite;
+}
+.nav-vertical a:hover:not(.active){
+    background-color: rgb(70, 69, 69);
+    color: antiquewhite;
+}
