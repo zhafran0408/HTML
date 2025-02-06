@@ -5,16 +5,16 @@
 .container-navigasi {
   font-family: sans-serif;
   font-size: smaller;
-  width: 900px;
+  width: 900px
 }
 .logo {
-  background-color: rgb(7, 250, 250);
+  background-color: rgb(9, 28, 241);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .list-navigasi {
-  background-color: rgb(240, 136, 10);
+  background-color: rgb(13, 13, 13);
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -29,7 +29,7 @@
   background-color: rgb(75, 252, 5);
 }
 .user {
-  background-color: aquamarine;
+  background-color: rgb(139, 137, 137);
   display: flex;
   justify-content: space-between;
 }

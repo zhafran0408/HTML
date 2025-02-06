@@ -1,0 +1,18 @@
+:root{
+  --primary-color: #b1b1b1;
+  --secondary-color: blue;
+  --text-primary: #333;  
+}
+.container {
+  background-color: var(--text-primary);
+
+  .box {
+    background-color: aqua;
+  }
+  &:hover {
+    background-color: blueviolet;
+  }
+  .box2 {
+    background-color: rgb(83, 79, 79);
+  }
+}
