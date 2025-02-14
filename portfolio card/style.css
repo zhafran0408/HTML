@@ -1,0 +1,205 @@
+.navbar {
+  /* background-color: rgb(3, 3, 3); */
+}
+.dummy {
+  display: flex;
+  justify-content: space-between;
+}
+.text-1 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  color: rgb(70, 69, 69);
+
+  .test-1 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    color: rgb(249, 248, 248);
+  }
+  .test-2 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    color: rgb(250, 247, 247);
+  }
+}
+.container {
+  /* background-color: aquamarine; */
+  flex-direction: column;
+
+  .text-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    li{
+      color:rgb(0, 132, 255);
+    }
+  }
+}
+.text-3 {
+  background-color: rgb(101, 169, 252);
+  width: 30%;
+  display: flex;
+  /* align-items:center; */
+  /* width: 100px; */
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(6, 6, 6);
+  /* font-style: italic; */
+  font-weight: bold;
+  width: 500px;
+
+  .email {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .password {
+    /* display: flex; */
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .g {
+    display: flex;
+    justify-content: right;
+    /* margin-right: 10px; */
+    color: rgb(54, 53, 53);
+
+    button {
+      width: 100px;
+      height: 50px;
+      margin-left: 20px;
+      background-color: rgb(5, 120, 251);
+      color:white;
+      border-radius: 10px;
+      border-color: rgb(0, 0, 0);
+    }
+
+    .register {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .g-2 {
+    display: flex;
+    justify-content: right;
+    /* margin-right: 10px; */
+
+    button {
+      width: 200px;
+      height: 50px;
+      margin-left: 10px;
+      margin-top: 20px;
+      background-color: rgb(5, 120, 251);
+      color: white;
+      border-radius: 10px;
+      border-color: rgb(0, 0, 0);
+    }
+
+    .cancel {
+      margin-top: 30px;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: rgb(54, 53, 53);
+    }
+  }
+}
+.payment {
+  width: 30%;
+  background-color: rgb(5, 120, 251);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(6, 6, 6);
+
+  img {
+    width: 300px;
+    align-items: center;
+  }
+}
+
+.container-2 {
+  display: flex;
+  /* background-color: blue; */
+}
+.test-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pengaturan {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: larger;
+  font-weight: bold;
+
+  .jumlah {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.gift {
+  color: rgb(150, 150, 150);
+
+  input {
+    height: 50px;
+    background-color: rgb(215, 216, 216);
+    border-radius: 10px;
+  }
+
+  button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(3, 141, 254);
+    color: rgb(5, 142, 254);
+  }
+}
+.test-3 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  .nomer {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
